@@ -1,0 +1,7 @@
+<h1><%= @task.title %></h1>
+<p>mission : <%= @task.details %></p>
+<p>status : <%= @task.completed ? "done!" : "to be done" %></p>
+
+<p>
+  <%= link_to "my tasks", tasks_path %>
+</p>
